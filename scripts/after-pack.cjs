@@ -18,9 +18,29 @@ module.exports = async function afterPack(context) {
   );
 
   const isMac = process.platform === "darwin";
-  const resourcesDir = isMac
-    ? path.join(context.appOutDir, "Contents", "Resources")
-    : path.join(context.appOutDir, "resources");
+  let resourcesDir;
+
+  if (isMac) {
+    // context.appOutDir is e.g. release/mac-arm64; the .app bundle lives
+    // inside it, so Resources is not directly under appOutDir/Contents.
+    const appBundle = fs
+      .readdirSync(context.appOutDir)
+      .find((name) => name.endsWith(".app"));
+    if (!appBundle) {
+      throw new Error(
+        `[afterPack] no .app bundle found in ${context.appOutDir}`,
+      );
+    }
+    resourcesDir = path.join(
+      context.appOutDir,
+      appBundle,
+      "Contents",
+      "Resources",
+    );
+  } else {
+    resourcesDir = path.join(context.appOutDir, "resources");
+  }
+
   const appServerDir = path.join(resourcesDir, "app-server");
   const target = path.join(appServerDir, "node_modules");
 
