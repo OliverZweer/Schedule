@@ -1,0 +1,376 @@
+{
+  "year": 2027,
+  "source": {
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "documentNumber": "国办发明电〔2026〕10号",
+    "publishedAt": "2026-11-05",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm"
+  },
+  "periods": [
+    {
+      "name": "元旦",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-03",
+      "days": 3,
+      "statutoryDates": [
+        "2027-01-01"
+      ],
+      "makeupDates": [],
+      "note": "1月1日至3日放假，共3天。"
+    },
+    {
+      "name": "春节",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-13",
+      "days": 9,
+      "statutoryDates": [
+        "2027-02-05",
+        "2027-02-06",
+        "2027-02-07",
+        "2027-02-08"
+      ],
+      "makeupDates": [
+        "2027-01-31",
+        "2027-02-14"
+      ],
+      "note": "2月5日（除夕）至13日（正月初八）放假调休，共9天；1月31日、2月14日上班。"
+    },
+    {
+      "name": "清明节",
+      "startDate": "2027-04-03",
+      "endDate": "2027-04-05",
+      "days": 3,
+      "statutoryDates": [
+        "2027-04-05"
+      ],
+      "makeupDates": [],
+      "note": "4月3日至5日放假，共3天。"
+    },
+    {
+      "name": "劳动节",
+      "startDate": "2027-05-01",
+      "endDate": "2027-05-05",
+      "days": 5,
+      "statutoryDates": [
+        "2027-05-01",
+        "2027-05-02"
+      ],
+      "makeupDates": [
+        "2027-05-08"
+      ],
+      "note": "5月1日至5日放假调休，共5天；5月8日上班。"
+    },
+    {
+      "name": "端午节",
+      "startDate": "2027-06-09",
+      "endDate": "2027-06-09",
+      "days": 1,
+      "statutoryDates": [
+        "2027-06-09"
+      ],
+      "makeupDates": [],
+      "note": "6月9日放假1天，不调休。"
+    },
+    {
+      "name": "中秋节",
+      "startDate": "2027-09-15",
+      "endDate": "2027-09-15",
+      "days": 1,
+      "statutoryDates": [
+        "2027-09-15"
+      ],
+      "makeupDates": [],
+      "note": "9月15日放假1天，不调休。"
+    },
+    {
+      "name": "国庆节",
+      "startDate": "2027-10-01",
+      "endDate": "2027-10-07",
+      "days": 7,
+      "statutoryDates": [
+        "2027-10-01",
+        "2027-10-02",
+        "2027-10-03"
+      ],
+      "makeupDates": [
+        "2027-09-26",
+        "2027-10-09"
+      ],
+      "note": "10月1日至7日放假调休，共7天；9月26日、10月9日上班。"
+    }
+  ],
+  "days": [
+    {
+      "date": "2027-01-01",
+      "name": "元旦",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "元旦（法定节假日）"
+    },
+    {
+      "date": "2027-01-02",
+      "name": "元旦",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "元旦假期"
+    },
+    {
+      "date": "2027-01-03",
+      "name": "元旦",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "元旦假期"
+    },
+    {
+      "date": "2027-01-31",
+      "name": "春节",
+      "isHoliday": false,
+      "isStatutory": false,
+      "isMakeupWorkday": true,
+      "note": "春节调休上班"
+    },
+    {
+      "date": "2027-02-05",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "春节（法定节假日）"
+    },
+    {
+      "date": "2027-02-06",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "春节（法定节假日）"
+    },
+    {
+      "date": "2027-02-07",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "春节（法定节假日）"
+    },
+    {
+      "date": "2027-02-08",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "春节（法定节假日）"
+    },
+    {
+      "date": "2027-02-09",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "春节假期"
+    },
+    {
+      "date": "2027-02-10",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "春节假期"
+    },
+    {
+      "date": "2027-02-11",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "春节假期"
+    },
+    {
+      "date": "2027-02-12",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "春节假期"
+    },
+    {
+      "date": "2027-02-13",
+      "name": "春节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "春节假期"
+    },
+    {
+      "date": "2027-02-14",
+      "name": "春节",
+      "isHoliday": false,
+      "isStatutory": false,
+      "isMakeupWorkday": true,
+      "note": "春节调休上班"
+    },
+    {
+      "date": "2027-04-03",
+      "name": "清明节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "清明节假期"
+    },
+    {
+      "date": "2027-04-04",
+      "name": "清明节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "清明节假期"
+    },
+    {
+      "date": "2027-04-05",
+      "name": "清明节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "清明节（法定节假日）"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "劳动节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "劳动节（法定节假日）"
+    },
+    {
+      "date": "2027-05-02",
+      "name": "劳动节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "劳动节（法定节假日）"
+    },
+    {
+      "date": "2027-05-03",
+      "name": "劳动节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "劳动节假期"
+    },
+    {
+      "date": "2027-05-04",
+      "name": "劳动节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "劳动节假期"
+    },
+    {
+      "date": "2027-05-05",
+      "name": "劳动节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "劳动节假期"
+    },
+    {
+      "date": "2027-05-08",
+      "name": "劳动节",
+      "isHoliday": false,
+      "isStatutory": false,
+      "isMakeupWorkday": true,
+      "note": "劳动节调休上班"
+    },
+    {
+      "date": "2027-06-09",
+      "name": "端午节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "端午节（法定节假日）"
+    },
+    {
+      "date": "2027-09-15",
+      "name": "中秋节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "中秋节（法定节假日）"
+    },
+    {
+      "date": "2027-09-26",
+      "name": "国庆节",
+      "isHoliday": false,
+      "isStatutory": false,
+      "isMakeupWorkday": true,
+      "note": "国庆节调休上班"
+    },
+    {
+      "date": "2027-10-01",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "国庆节（法定节假日）"
+    },
+    {
+      "date": "2027-10-02",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "国庆节（法定节假日）"
+    },
+    {
+      "date": "2027-10-03",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": true,
+      "isMakeupWorkday": false,
+      "note": "国庆节（法定节假日）"
+    },
+    {
+      "date": "2027-10-04",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "国庆节假期"
+    },
+    {
+      "date": "2027-10-05",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "国庆节假期"
+    },
+    {
+      "date": "2027-10-06",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "国庆节假期"
+    },
+    {
+      "date": "2027-10-07",
+      "name": "国庆节",
+      "isHoliday": true,
+      "isStatutory": false,
+      "isMakeupWorkday": false,
+      "note": "国庆节假期"
+    },
+    {
+      "date": "2027-10-09",
+      "name": "国庆节",
+      "isHoliday": false,
+      "isStatutory": false,
+      "isMakeupWorkday": true,
+      "note": "国庆节调休上班"
+    }
+  ]
+}
