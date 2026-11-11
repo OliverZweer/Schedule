@@ -97,7 +97,9 @@ function createWindow() {
   x = Math.max(workArea.x, Math.min(x, workArea.x + workArea.width - width));
   y = Math.max(workArea.y, Math.min(y, workArea.y + workArea.height - height));
 
-  const alwaysOnTop = settings.alwaysOnTop !== false;
+  // Desktop mode by default: the calendar sits on the desktop without staying
+  // above other applications. The tray toggle can opt back into always-on-top.
+  const alwaysOnTop = settings.alwaysOnTop === true;
 
   mainWindow = new BrowserWindow({
     x,
@@ -111,6 +113,8 @@ function createWindow() {
     icon: assetPath("icon.png"),
     backgroundColor: "#f5f4ef",
     alwaysOnTop,
+    skipTaskbar: true,
+    fullscreenable: false,
     autoHideMenuBar: true,
     webPreferences: {
       contextIsolation: true,
@@ -190,9 +194,9 @@ function updateTrayMenu() {
     },
     { type: "separator" },
     {
-      label: "窗口置顶",
+      label: "窗口置顶（会遮挡其他窗口）",
       type: "checkbox",
-      checked: mainWindow ? mainWindow.isAlwaysOnTop() : settings.alwaysOnTop !== false,
+      checked: mainWindow ? mainWindow.isAlwaysOnTop() : settings.alwaysOnTop === true,
       click: (item) => {
         writeSettings({ alwaysOnTop: item.checked });
         mainWindow?.setAlwaysOnTop(item.checked, "floating");
